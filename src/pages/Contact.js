@@ -19,7 +19,7 @@ export const Contact = () => {
         e.preventDefault();
 
         emailjs.send(
-            'service_hnqxmh6',       // Replace with your EmailJS service ID
+            'service_xn1emjj',       // Replace with your EmailJS service ID
             'template_wr9pk6c',      // Replace with your EmailJS template ID
             formData,
             'i2ohIJnOrox0WdZh3'           // Replace with your EmailJS user ID

@@ -1,4 +1,6 @@
 import {ServiceSub} from "../component/ServiceSub";
+import {Blog} from "../component/Blog";
+import {Member} from "../component/Member";
 
 export const Home = () => {
 
@@ -18,7 +20,7 @@ export const Home = () => {
                                     Digital Solution</h1>
                                 <a href="quote.html"
                                    className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Free Quote</a>
-                                <a href="" className="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact
+                                <a href="contact" className="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact
                                     Us</a>
                             </div>
                         </div>
@@ -33,7 +35,7 @@ export const Home = () => {
                                     Digital Solution</h1>
                                 <a href="quote.html"
                                    className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Free Quote</a>
-                                <a href="" className="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact
+                                <a href="contact" className="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact
                                     Us</a>
                             </div>
                         </div>
@@ -200,7 +202,7 @@ export const Home = () => {
 
 
             {/*Pricing Plan Start*/}
-            <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+            {/*<div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
                 <div className="container py-5">
                     <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{maxWidth: '600px'}}>
                         <h5 className="fw-bold text-primary text-uppercase">Pricing Plans</h5>
@@ -266,7 +268,7 @@ export const Home = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>*/}
             {/*Pricing Plan End*/}
 
 
@@ -339,133 +341,13 @@ export const Home = () => {
 
 
             {/*Team Start*/}
-            <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" id="team">
-                <div className="container py-5">
-                    <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{maxWidth: '600px'}}>
-                        <h5 className="fw-bold text-primary text-uppercase">Team Members</h5>
-                        <h1 className="mb-0">Professional Stuffs Ready to Help Your Business</h1>
-                    </div>
-                    <div className="row g-5">
-                        <div className="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-                            <div className="team-item bg-light rounded overflow-hidden">
-                                <div className="team-img position-relative overflow-hidden">
-                                    <img className="img-fluid w-100" src="img/team-1.jpg" alt=""/>
-                                        <div className="team-social">
-                                            <a className="btn btn-lg btn-primary btn-lg-square rounded" href=""><i className="fab fa-twitter fw-normal"></i></a>
-                                            <a className="btn btn-lg btn-primary btn-lg-square rounded" href=""><i className="fab fa-facebook-f fw-normal"></i></a>
-                                            <a className="btn btn-lg btn-primary btn-lg-square rounded" href=""><i className="fab fa-instagram fw-normal"></i></a>
-                                            <a className="btn btn-lg btn-primary btn-lg-square rounded" href=""><i className="fab fa-linkedin-in fw-normal"></i></a>
-                                        </div>
-                                </div>
-                                <div className="text-center py-4">
-                                    <h4 className="text-primary">Full Name</h4>
-                                    <p className="text-uppercase m-0">Designation</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
-                            <div className="team-item bg-light rounded overflow-hidden">
-                                <div className="team-img position-relative overflow-hidden">
-                                    <img className="img-fluid w-100" src="img/team-2.jpg" alt=""/>
-                                        <div className="team-social">
-                                            <a className="btn btn-lg btn-primary btn-lg-square rounded" href=""><i className="fab fa-twitter fw-normal"></i></a>
-                                            <a className="btn btn-lg btn-primary btn-lg-square rounded" href=""><i className="fab fa-facebook-f fw-normal"></i></a>
-                                            <a className="btn btn-lg btn-primary btn-lg-square rounded" href=""><i className="fab fa-instagram fw-normal"></i></a>
-                                            <a className="btn btn-lg btn-primary btn-lg-square rounded" href=""><i className="fab fa-linkedin-in fw-normal"></i></a>
-                                        </div>
-                                </div>
-                                <div className="text-center py-4">
-                                    <h4 className="text-primary">Full Name</h4>
-                                    <p className="text-uppercase m-0">Designation</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-                            <div className="team-item bg-light rounded overflow-hidden">
-                                <div className="team-img position-relative overflow-hidden">
-                                    <img className="img-fluid w-100" src="img/team-3.jpg" alt=""/>
-                                        <div className="team-social">
-                                            <a className="btn btn-lg btn-primary btn-lg-square rounded" href=""><i className="fab fa-twitter fw-normal"></i></a>
-                                            <a className="btn btn-lg btn-primary btn-lg-square rounded" href=""><i className="fab fa-facebook-f fw-normal"></i></a>
-                                            <a className="btn btn-lg btn-primary btn-lg-square rounded" href=""><i className="fab fa-instagram fw-normal"></i></a>
-                                            <a className="btn btn-lg btn-primary btn-lg-square rounded" href=""><i className="fab fa-linkedin-in fw-normal"></i></a>
-                                        </div>
-                                </div>
-                                <div className="text-center py-4">
-                                    <h4 className="text-primary">Full Name</h4>
-                                    <p className="text-uppercase m-0">Designation</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <Member/>
             {/*Team End*/}
 
 
 
            {/* Blog Start*/}
-            <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-                <div className="container py-5">
-                    <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{maxWidth: '600px'}}>
-                        <h5 className="fw-bold text-primary text-uppercase">Latest Blog</h5>
-                        <h1 className="mb-0">Read The Latest Articles from Our Blog Post</h1>
-                    </div>
-                    <div className="row g-5">
-                        <div className="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-                            <div className="blog-item bg-light rounded overflow-hidden">
-                                <div className="blog-img position-relative overflow-hidden">
-                                    <img className="img-fluid" src="img/blog-1.jpg" alt=""/>
-                                        <a className="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a>
-                                </div>
-                                <div className="p-4">
-                                    <div className="d-flex mb-3">
-                                        <small className="me-3"><i className="far fa-user text-primary me-2"></i>John Doe</small>
-                                        <small><i className="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                                    </div>
-                                    <h4 className="mb-3">How to build a website</h4>
-                                    <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                                    <a className="text-uppercase" href="">Read More <i className="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
-                            <div className="blog-item bg-light rounded overflow-hidden">
-                                <div className="blog-img position-relative overflow-hidden">
-                                    <img className="img-fluid" src="img/blog-2.jpg" alt=""/>
-                                        <a className="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a>
-                                </div>
-                                <div className="p-4">
-                                    <div className="d-flex mb-3">
-                                        <small className="me-3"><i className="far fa-user text-primary me-2"></i>John Doe</small>
-                                        <small><i className="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                                    </div>
-                                    <h4 className="mb-3">How to build a website</h4>
-                                    <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                                    <a className="text-uppercase" href="">Read More <i className="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-                            <div className="blog-item bg-light rounded overflow-hidden">
-                                <div className="blog-img position-relative overflow-hidden">
-                                    <img className="img-fluid" src="img/blog-3.jpg" alt=""/>
-                                        <a className="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a>
-                                </div>
-                                <div className="p-4">
-                                    <div className="d-flex mb-3">
-                                        <small className="me-3"><i className="far fa-user text-primary me-2"></i>John Doe</small>
-                                        <small><i className="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                                    </div>
-                                    <h4 className="mb-3">How to build a website</h4>
-                                    <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                                    <a className="text-uppercase" href="">Read More <i className="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <Blog/>
             {/*Blog Start*/}
 
         </>
